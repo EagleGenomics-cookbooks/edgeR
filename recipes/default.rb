@@ -14,4 +14,3 @@ execute 'Rscript -e \'BiocManager::install("edgeR")\''
 magic_shell_environment 'EDGER_VERSION' do
   value '3.28.1'
 end
-
