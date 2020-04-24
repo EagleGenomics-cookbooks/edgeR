@@ -7,5 +7,5 @@
 
 describe command('Rscript -e \'packageVersion("edgeR")\'') do
   its('exit_status') { should eq 0 }
-  its('stdout') {should match(/3\.28\.1/)}
+  its('stdout') { should match(/3\.28\.1/) }
 end
